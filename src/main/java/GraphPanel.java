@@ -130,5 +130,4 @@ public class GraphPanel extends JPanel {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
-
 }

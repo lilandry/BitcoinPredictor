@@ -13,7 +13,6 @@ public class WebConnection {
     public List<Double> GetFromWeb() {
         List<Double> result = new ArrayList<>();
         String urlString = "https://api.coindesk.com/v1/bpi/historical/close.json";
-
         int responseCode;
 
         try {
